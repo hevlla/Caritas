@@ -1,0 +1,17 @@
+* {box-sizing: border-box}
+
+.row{
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 45%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

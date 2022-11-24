@@ -1,0 +1,70 @@
+* {box-sizing: border-box}
+
+body {
+  font-family:'Roboto', sans-serif;
+  color: #FECE1A;
+  line-height:1.2em;
+  font-size:17px;
+  line-height:20px;
+}
+
+.register{
+  color: #FECE1A;
+}
+
+
+#regForm{
+  background-color: hsl(47, 99%, 55%);
+  margin: 10px auto;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  border-radius: 10px;
+  height: 100%;
+  width: 65%; 
+  
+}
+
+.tipoCadastro img {
+  width:150px;
+  height:150px;
+}
+
+input, input[type="password"], input[name=cnpj]{
+  padding: 5px;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #aaaaaa;
+  border-radius: 10px;
+  background-color: #f8ffddc7;
+  height: 40px;
+}
+
+input[name=cep], input[name=cnpj]{
+  width: 40%;
+}
+
+input[name=numero], input[name=uf]{
+  width: 100%;
+  margin-left: 0%;
+}
+
+input[name=bairro], input[name=cidade]{
+  width: 100%;
+}
+
+.row{
+  margin-left: 0px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
